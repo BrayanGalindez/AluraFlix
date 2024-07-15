@@ -1,8 +1,58 @@
-# React + Vite
+# 🎬 AluraFlix
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este challenge fue desarrollado para mostrar todo lo aprendido en la formación de Alura. Consiste en el desarrollo de un sitio web que permite gestionar una galería de películas, donde se pueden agregar, eliminar y editar entradas. El proyecto tiene como objetivo aplicar los conocimientos adquiridos en el curso para construir una aplicación web funcional y con una interfaz atractiva.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologías Implementadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**
+- **Vite**
+
+## 📚 Dependencias Usadas
+
+- `axios`
+- `json-server`
+- `react-responsive`
+- `react-icons`
+- `uuid`
+- `styled-components`
+- `react-router-dom`
+
+## 🛠️ Pasos para Iniciar el Proyecto
+
+1. **Descargar el Proyecto**:
+   - Clona el repositorio:
+     ```bash
+     git clone https://github.com/tu-usuario/AluraFlix.git
+     ```
+
+2. **Instalar Dependencias**:
+   - Abre una consola en la carpeta del proyecto `AluraFlix` y ejecuta:
+     ```bash
+     npm install
+     ```
+
+3. **Ejecutar el Proyecto**:
+   - Inicia el servidor de desarrollo:
+     ```bash
+     npm run dev
+     ```
+   - Abre otra consola y navega a la carpeta `AluraFlix\src`, luego ejecuta:
+     ```bash
+     npx json-server db.json
+     ```
+
+¡Listo! Ahora puedes disfrutar de tu aplicación web AluraFlix. 🎉
+
+## ✨ Funcionalidades
+
+- Agregar nuevas películas a la galería.
+- Editar información de las películas existentes.
+- Eliminar películas de la galería.
+
+## 🎨 Interfaz Atractiva
+
+Este proyecto se centra en ofrecer una interfaz de usuario atractiva y fácil de usar, aplicando las mejores prácticas de diseño y desarrollo web.
+
+---
+
+¡Gracias por revisar este proyecto! Si tienes alguna sugerencia o encuentras algún problema, no dudes en abrir un issue o hacer un pull request. 😊

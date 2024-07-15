@@ -1,0 +1,112 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+}
+
+.modal-content {
+  background: #03122f;
+  padding: 20px;
+  border: 3px solid #2271d1;
+  border-radius: 8px;
+  position: relative;
+  max-width: 90%; /* Ajusta el máximo ancho para asegurar que el modal no sea demasiado ancho */
+  max-height: 90vh; /* Limita la altura máxima del modal para evitar desbordamientos */
+  overflow-y: auto; /* Permite el desplazamiento si el contenido es demasiado alto */
+  width: 500px; /* Puedes ajustar el ancho fijo o usar un ancho relativo */
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: transparent;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.modal-close:focus {
+  outline: none;
+}
+.form-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.form-modal-title {
+  color: #2271d1;
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0;
+  margin-top: 40px;
+}
+.modal-input {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.modal-input .input,
+.modal-input .input-textarea,
+.modal-input .container-select {
+  width: 470px;
+  height: 62px;
+  border-radius: 10px;
+  border: 3px solid #2271d1;
+  background: transparent;
+  resize: none;
+  outline: none;
+  color: #a5a5a5;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: lowercase;
+  padding: 10px 16px;
+  box-sizing: border-box;
+}
+.modal-input .input-textarea {
+  height: 112px;
+}
+
+.input-textarea::placeholder,
+.input::placeholder {
+  color: #a5a5a5;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: lowercase;
+  box-sizing: border-box;
+}
+.modal-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+@media (width <= 650px) {
+  .modal-content {
+    max-width: 70%;
+  }
+  .modal-input .input,
+  .modal-input .input-textarea,
+  .modal-input .container-select {
+    width: 250px;
+  }
+  .modal-buttons {
+    flex-direction: column;
+  }
+  .form-modal-title {
+    text-align: center;
+  }
+}

@@ -1,0 +1,32 @@
+.container-nav {
+  display: flex;
+  flex-wrap: wrap;
+  height: 125px;
+  padding-inline: 20px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 4px solid #2271d1;
+  background: #262626;
+  box-shadow: 0px 5px 29px 0px rgba(34, 113, 209, 0.7);
+}
+.logo-nav {
+  width: 168px;
+  height: 40px;
+}
+.container-boton{
+    display: flex;
+    gap: 25px;
+}
+@media (width <= 650px ){
+  .container-nav{
+    flex-direction: column;
+    justify-content:stretch;
+    gap: 10px;
+  }
+  .logo-nav{
+    margin-top: 10px;
+  }
+  .container-nav {
+    height: auto;
+  }
+}    

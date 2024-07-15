@@ -1,0 +1,15 @@
+.container-team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #191919
+}
+.container_cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  line-height: 0;
+}

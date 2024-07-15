@@ -1,0 +1,92 @@
+{
+  "videos": [
+    {
+      "id": "1",
+      "titulo": "The Dark Knight",
+      "categoria": "Accion",
+      "imagen": "https://static1.srcdn.com/wordpress/wp-content/uploads/2023/09/the-dark-knight-poster-joker-harvey-two-face.jpg",
+      "video": "https://www.youtube.com/embed/EXeTwQWrcwY",
+      "descripcion": "Cuando el caos se apodera de Gotham, el Caballero Oscuro se enfrenta al Joker."
+    },
+    {
+      "id": "2",
+      "titulo": "Mad Max: Fury Road",
+      "categoria": "Accion",
+      "imagen": "https://assets.mubicdn.net/images/film/114803/image-w1280.jpg?1684837536",
+      "video": "https://www.youtube.com/embed/hEJnMQG9ev8",
+      "descripcion": "Un guerrero solitario y una fugitiva se unen para escapar de un dictador en un mundo post-apocalíptico."
+    },
+    {
+      "id": "3",
+      "titulo": "John Wick",
+      "categoria": "Accion",
+      "imagen": "https://imagenes.20minutos.es/files/image_640_360/uploads/imagenes/2023/11/15/keanu-reeves-como-john-wick.jpeg",
+      "video": "https://www.youtube.com/embed/2AUmvWm5ZDQ",
+      "descripcion": "Un ex asesino busca venganza contra aquellos que mataron a su perro y robaron su auto."
+    },
+    {
+      "id": "4",
+      "titulo": "The Shawshank Redemption",
+      "categoria": "Drama",
+      "imagen": "https://resizing.flixster.com/tdMXmsVnR-vIj4Q5IACpEZ7O1ak=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15987_v_h8_au.jpg",
+      "video": "https://www.youtube.com/embed/PLl99DlL6b4?si=ZRwlUhDbxn4NsCog",
+      "descripcion": "La historia de un hombre condenado por un crimen que no cometió, y su lucha por la libertad en prisión."
+    },
+    {
+      "id": "5",
+      "titulo": "Forrest Gump",
+      "categoria": "Drama",
+      "imagen": "https://cdn.aarp.net/content/aarpe/es/home/entretenimiento/cine-y-television/info-2022/forrest-gump/_jcr_content/root/container_main/container_body_main/container_body1/container_body_cf/container_image/articlecontentfragment/cfimage.coreimg.50.932.jpeg/content/dam/aarp/entertainment/movies-for-grownups/2022/03/1140-forrest-gump-bench-esp.jpg",
+      "video": "https://www.youtube.com/embed/bLvqoHBptjg",
+      "descripcion": "La vida de Forrest Gump, un hombre con un bajo coeficiente intelectual que influye en eventos históricos importantes."
+    },
+    {
+      "id": "6",
+      "titulo": "The Godfather",
+      "categoria": "Drama",
+      "imagen": "https://communist.red/wp-content/uploads/2022/08/godfather.png.webp",
+      "video": "https://www.youtube.com/embed/UaVTIH8mujA",
+      "descripcion": "La historia de la familia Corleone y su imperio del crimen organizado."
+    },
+    {
+      "id": "7",
+      "titulo": "The Lion King",
+      "categoria": "Animacion",
+      "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/D3429E72F594CA84B8448FE5F8BDE1773505217A9541297CB1E85719EC8D686C/scale?width=1200&aspectRatio=1.78&format=webp",
+      "video": "https://www.youtube.com/embed/lFzVJEksoDY?si=BIBYzMw8yZBNllJ7",
+      "descripcion": "Un joven león busca reclamar su reino después de la trágica muerte de su padre."
+    },
+    {
+      "id": "8",
+      "titulo": "Toy Story",
+      "categoria": "Animacion",
+      "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/8F161B52338EE723D8F1C5DA31740A434E4A85F8749F9E2B9984309C287B90CF/scale?width=1200&aspectRatio=1.78&format=webp",
+      "video": "https://www.youtube.com/embed/v-PjgYDrg70?si=rTIOf7utsUMpCPNL",
+      "descripcion": "Las aventuras de un grupo de juguetes que cobran vida cuando los humanos no están presentes."
+    },
+    {
+      "id": "9",
+      "titulo": "Finding Nemo",
+      "categoria": "Animacion",
+      "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/69EFCE0C4DED1AD62380A123563ABF74905BF248FAAA05AC2A6E8E9626866299/scale?width=600&aspectRatio=1.78&format=webp",
+      "video": "https://www.youtube.com/embed/9oQ628Seb9w?si=yCeIL1kbTxhIPiMP",
+      "descripcion": "Un pez payaso viaja a través del océano para encontrar a su hijo secuestrado."
+    },
+    {
+      "id": "10",
+      "titulo": "Superbad",
+      "categoria": "Comedia",
+      "imagen": "https://media.ambito.com/p/8c8ac8c0d6738e1d60fba1c8ed9d2d2f/adjuntos/239/imagenes/040/088/0040088453/superbadjpg.jpg",
+      "video": "https://www.youtube.com/embed/4eaZ_48ZYog?si=y4YM-oQJzPq5ziuC",
+      "descripcion": "Dos amigos de secundaria intentan tener una última fiesta antes de graduarse."
+    },
+    {
+      "id": "11",
+      "titulo": "The Hangover",
+      "categoria": "Comedia",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBMny7EZ1L6iU-vOuyvrQhNi-iXXWQ14S_hg&s",
+      "video": "https://www.youtube.com/embed/tlize92ffnY?si=GoKqhzDgKJwfQhhs",
+      "descripcion": "Un grupo de amigos trata de reconstruir su noche de fiesta en Las Vegas y encontrar al novio perdido."
+    }
+  ]
+}

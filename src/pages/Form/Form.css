@@ -1,0 +1,126 @@
+.container-form {
+  display: flex;
+  flex-direction: column;
+  padding-block: 50px;
+  align-items: center;
+  gap: 47px;
+  background: #191919;
+}
+.container-form-titles {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container-title {
+  color: #f5f5f5;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0;
+}
+.container-p {
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.form-title {
+  color: #fff;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 66.667% */
+  margin: 0;
+}
+form label {
+  color: #fff;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 120% */
+  text-transform: capitalize;
+}
+.container-form-input {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+}
+.container-input {
+  display: flex;
+  flex-direction: column;
+}
+.container-input .input,
+.input-textarea,.container-select  {
+  width: 470px;
+  height: 62px;
+  border-radius: 10px;
+  border: 3px solid #262626;
+  background: transparent;
+  resize: none;
+  outline: none;
+  color: #a5a5a5;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: lowercase;
+  padding: 10px 16px;
+  box-sizing: border-box;
+}
+.input-textarea {
+  height: 220px;
+}
+
+.input-textarea::placeholder,
+.input::placeholder {
+  color: #a5a5a5;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: lowercase;
+  box-sizing: border-box;
+}
+.container-buttons {
+  display: flex;
+  gap: 25px;
+}
+
+.select-items div:hover,
+.same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+@media (width <= 980px) {
+  .container-form-input {
+    justify-content: center;
+  }
+  .form {
+    align-items: center;
+    gap: 20px;
+  }
+}
+@media (width <= 500px){
+  .container-form-titles{
+    padding-inline: 30px;
+  }
+  .container-input .input,
+  .input-textarea, .container-select {
+    width: 300px;
+  }
+  .container-buttons{
+    flex-direction: column;
+  }
+}

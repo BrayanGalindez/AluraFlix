@@ -1,0 +1,21 @@
+.boton-nav {
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 24px; /* 120% */
+  text-transform: uppercase;
+  width: 180px;
+  height: 54px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  background-color: transparent;
+  border: 3px solid white;
+  cursor: pointer;
+}
+.boton-nav:hover {
+  color: #2271d1;
+  background-color: #000000e5;
+  border: 3px solid #2271d1;
+  box-shadow: inset 0px 0px 9px 0px #2271d1;
+}

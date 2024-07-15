@@ -22,7 +22,7 @@ Este challenge fue desarrollado para mostrar todo lo aprendido en la formación 
 1. **Descargar el Proyecto**:
    - Clona el repositorio:
      ```bash
-     git clone https://github.com/tu-usuario/AluraFlix.git
+     https://github.com/BrayanGalindez/AluraFlix.git
      ```
 
 2. **Instalar Dependencias**:
